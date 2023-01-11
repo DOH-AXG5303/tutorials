@@ -1,0 +1,13 @@
+name: Rtransform23
+# Alexey Gilman, 01/10/2023
+# Environment for DOH data transformations using R
+
+channels:
+ - conda-forge
+  
+dependencies:
+  - r-essentials = 4.1
+  - r-base
+  - r-irkernel
+  - r-redcapr = 1.1
+
